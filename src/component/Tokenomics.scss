@@ -1,0 +1,454 @@
+.table{
+    color: #fff !important
+}
+
+.team-main .name-post {
+    padding: 15px;
+    background: #1a1a1a;
+    box-shadow: "0 3px 15px rgb(0 0 0 / 8%)";
+    width: 100%;
+    left: 23px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(116.46deg, #6EF9B2 2.12%, #DBADFE 53.55%) 1;
+}
+
+.text-gradient {
+    background: linear-gradient(100.62deg, #F44876 1.82%, #FA7B55 92.88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-title {
+    background: linear-gradient(116.46deg, #6EF9B2 2.12%, #DBADFE 53.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.a{
+    background: linear-gradient(116.46deg, #6EF9B2 2.12%, #DBADFE 53.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none !important;
+    outline: none;
+}
+
+
+.team-main .img img {
+    display: block;
+    border-radius: 50%;
+}
+
+/* ============================================================================================== 
+SED Innovations
+https://sed.am
+https://mkrtchyan.ga
+================================================================================================= */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.twinkling{
+//   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    // background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    z-index:3;
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+}
+
+.hero_content--wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.section_content--wrap {
+    margin-bottom: 3em;
+}
+
+.divider {
+    width: 1em;
+    height: 1em;
+}
+
+.rmap_text-grid {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 3em;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    overflow-x: hidden;
+}
+
+.rmap_top--block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.rmap_img--block {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 12em;
+    height: 12em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rmap_img--wrap {
+    position: relative;
+    z-index: 3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+}
+
+.rmap_img {
+    width: 8em;
+    height: 8em;
+    opacity: 0.6;
+}
+
+.rmap_img--block.is--current {
+    top: -3em;
+}
+
+.rmap_middle--wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 7em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.rmap_current-long {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    z-index: 1;
+    width: 100%;
+    height: 0.3em;
+    background-color: #ebe2fa;
+    background-image: linear-gradient(95deg, #ebe2fa, #ff85ff 51%, #ebe2fa);
+}
+
+.rmap_long-block.is--fade--end {
+    background-color: transparent;
+    background-image: linear-gradient(95deg, rgba(235, 226, 250, 0), #ebe2fa 13%);
+}
+.rmap_long-block {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 200%;
+    height: 0.3em;
+    background-color: #ebe2fa;
+}
+
+.rmap_upline--wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.rmap_circle {
+    position: relative;
+    top: 1.5em;
+    z-index: 2;
+    width: 3em;
+    height: 3em;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: #ebe2fa;
+    border-radius: 100%;
+    background-color: #190836;
+}
+
+.rmap_upline.is--current {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(226, 71, 222, 0)), to(#ff85ff));
+    background-image: linear-gradient(180deg, rgba(226, 71, 222, 0) 10%, #ff85ff);
+}
+
+.rmap_upline--wrap.is--current {
+    height: 140%;
+}
+
+.rmap_upline {
+    position: absolute;
+    z-index: 1;
+    width: 0.3em;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ebe2fa), color-stop(90%, rgba(235, 226, 250, 0)));
+    background-image: linear-gradient(0deg, #ebe2fa, rgba(235, 226, 250, 0) 90%);
+}
+
+.rmap_content--para {
+    position: relative;
+    width: 100%;
+    // margin-top: 3.5em;
+    padding-left: 5em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.content_side-block--small {
+    position: absolute;
+    left: -2px;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    z-index: -1;
+    width: 4px;
+    background-image: url(https://assets.website-files.com/618007b…/618007b…_btn-bg-transp.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rmap_range {
+    font-size: 2.22em;
+    font-weight: 700;
+}
+
+.rmap_content--para.is--current {
+    color: #fff;
+}
+
+.rmap_long-block.is--end {
+    left: -1.5em;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    background-color: transparent;
+    background-image: linear-gradient(262deg, rgba(235, 226, 250, 0), rgba(235, 226, 250, 0.9) 18%);
+}
+
+.border-left{
+ border-left: 1px solid #fff 
+}
+
+.border-bottom{
+    border-left: 1px solid #fff 
+}
+
+.margin-right{
+    margin-right: 10rem !important;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+}
+
+@media screen and (max-width: 767px){
+.rmap_content--para {
+    margin-bottom: 3.5em;
+    margin-left: 2em;
+}
+}
+
+@media screen and (max-width: 479px)
+{
+.rmap_top--block {
+    display: none;
+}
+}
+@media screen and (max-width: 767px){
+.rmap_top--block {
+    margin-right: 3em;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 767px){
+.rmap_text-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+}
+}
+
+@media screen and (max-width: 767px){
+.rmap_content--block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}}
+
+@media screen and (max-width: 479px){
+.rmap_img--block {
+    width: 5em;
+    height: 5em;
+}
+}
+@media screen and (max-width: 767px){
+.rmap_img--block {
+    position: relative;
+    width: 10em;
+    height: 10em;
+}}
+
+@media screen and (max-width: 767px){
+.rmap_long-block.is--fade--end {
+    height: 120%;
+}}
+.rmap_long-block.is--fade--end {
+    background-color: transparent;
+    background-image: linear-gradient(95deg, rgba(235, 226, 250, 0), #ebe2fa 13%);
+}
+@media screen and (max-width: 767px){
+.rmap_long-block {
+    right: auto;
+    width: 0.3em;
+    height: 270%;
+}}
+
+@media screen and (max-width: 767px){
+.rmap_long-block.is--end {
+    left: auto;
+    height: 470%;
+}}
+
+@media screen and (max-width: 767px){
+.rmap_img--block.is--current {
+    top: auto;
+}}
+
+@media screen and (max-width: 767px){
+.rmap_long-block.is--1 {
+    right: auto;
+    width: 0.3em;
+    height: 200%;
+}}

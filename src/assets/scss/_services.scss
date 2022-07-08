@@ -1,0 +1,48 @@
+//
+// services.scss
+//
+
+.service-box {
+    transition: all 0.5s;
+    .service-icon-bg {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        .service-box-icon {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            filter: brightness(0.55);
+            transition: all 0.5s;
+        }
+    }
+    .service-title, .read-more {
+        // color: $dark;
+        background: linear-gradient(100.62deg, #F44876 1.82%, #FA7B55 92.88%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .service-subtitle {
+        color: $muted;
+    }
+    &:hover {
+        background: $primary;
+        // border-color: $primary;
+        border-style: solid;
+        border-width: 1px;
+        border-image: linear-gradient(116.46deg, #6EF9B2 2.12%, #DBADFE 53.55%) 1;
+        .service-box-icon {
+            filter: brightness(1);
+        }
+        .service-title, .read-more, .service-subtitle, .service-box-icon {
+             transition: all 0.5s;
+         }
+         .service-title, .read-more {
+            color: $white;
+        }
+        .service-subtitle {
+            color: rgba($white, 0.5);
+        }
+    }
+}

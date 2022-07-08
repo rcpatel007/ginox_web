@@ -1,0 +1,26 @@
+//
+// footer.scss
+//
+
+.footer {
+    padding: 70px 0 25px;
+    background: linear-gradient(96.54deg, #040C18 8.76%, #10223E 132.65%) !important;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    // border-top: 2px solid #3956de;
+    .footer-sub-menu {
+        li {
+            padding: 6px 0;
+            .footer-link {
+                color: rgba($white, 0.6);
+                transition: all 0.5s;
+                &:hover {
+                    color: $white;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
